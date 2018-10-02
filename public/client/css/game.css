@@ -1,0 +1,80 @@
+.full-height {
+	padding-top: 60px;
+	font-size:20px;
+    font-family: 'Lato',verdana, sans-serif;
+    color: #fff;
+    text-align:center;
+    background: url("/client/images/background_game.jpg") top center no-repeat;
+}
+
+.text {
+	font-size:24px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.information-table {
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+	color: #fff;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius:10px;
+	font-size: 14px;
+}
+
+.header {
+	padding-top: 10px;
+}
+
+.number {
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.border-right {
+	border-right: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-rectangle {
+	margin: 0 auto;
+	background: url('/client/images/game.png') no-repeat -280px -240px;
+	width: 510px;
+	height: 200px;
+	transform: scale(0.45); 
+	-webkit-transform: scale(0.45);
+	-webkit-transform-origin:left top;
+    font-size: 60px;
+    color: #000;
+    padding-top: 30px;
+
+  /* other styles */
+}
+
+.btn-rectangle.clicked, .btn-rectangle:active {
+	margin: 0 auto;
+	background: url('/client/images/game.png') no-repeat -835px -240px;
+	width: 510px;
+	height: 200px;
+	transform: scale(0.45); 
+	-webkit-transform: scale(0.45);
+	-webkit-transform-origin:left top;
+    font-size: 60px;
+    color: #000;
+    padding-top: 30px;
+
+  /* other styles */
+}
+
+.button-wrapper {
+	margin: 0 auto;
+	width: 500px;
+	height: 100px;
+	position: relative;
+}
+
+.button-card {
+	width: 250px !important;
+	height: 150px;
+	float: left;
+}
